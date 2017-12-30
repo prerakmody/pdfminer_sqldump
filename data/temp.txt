@@ -1,0 +1,97 @@
+strider@pavilion:~/Downloads/Research/Random/Zauba/PDFParsing.zip_attachment_664891/PDFParsing$ python3 parse1_pdfminer_v2.py
+ =============== 1. EXTRACTING JSON(s) ===============
+0                MINISTRY OF CORPORATE AFFAIRS ??
+1                RECEIPT ?? G.A.R.7 ??
+2                Service Request Date : 03/08/2017 ??
+3                SRN : U16572745 ?? Payment made into : ??
+4                ICICI BANK ??
+5                Received From : ?? Name : ?? Address : ??
+6 ( 0 )                  Zauba Technologies and Data Services Privat ?? No 1/10, II Floor, Near Gate No 9 ?? APMC Yard, Yeshwanthpur ?? Bangalore , Karnataka ?? India - 00560022 ??
+7 ( 1 )                  Full Particulars of Remittance ?? Service Type: Fee for inspection of Public documents ??
+8 ( 2 )                  Type of Fee ??
+9 ( 3 )                  Service Description ??
+10 ( 4 )                 Amount(Rs.) ??
+11 ( 5 )                 Inspection of Public documents of LANDMARK  ??
+12 ( 6 )                 Normal ??
+13 ( 7 )                 100.00  ??
+14 ( 8 )                 CRAFTS PRIVATE LIMITED  ??
+15 ( 9 )                 ( U74999DL2007PTC163299  ) ??
+16 ( 10 )                Total ??
+17 ( 11 )                100.00  ??
+18 ( 12 )                Mode of Payment: ?? Received Payment Rupees:  One Hundred Only ??
+19 ( 13 )                Credit Card/Prepaid Card - ICICI Bank ??
+20 ( 14 )                Note: View public documents service is available for 3 hrs per company, from the time the  ?? first document is viewed, and is valid for 1 week ??
+21 ( 15 )                Page 1 of 1 ??
+
+ =============== 1. EXTRACTING JSON(s) ===============Traceback (most recent call last):  File "parse1_pdfminer_v2.py", line 101, in extract_pdf
+    res['Received Payment Rupees'] = each['text'].split('\n')[1].split(': ')[1]
+IndexError: list index out of range
+Error in file U16571275.pdf -----> Text: Credit Card/Prepaid Card - ICICI Bank
+
+0                MINISTRY OF CORPORATE AFFAIRS ??
+1                RECEIPT ?? G.A.R.7 ??
+2                Service Request Date : 03/08/2017 ??3                SRN : U16571275 ?? Payment made into : ??
+4                ICICI BANK ??
+5                Received From : ?? Name : ?? Address : ??
+6 ( 0 )                  Zauba Technologies and Data Services Privat ?? No 1/10, II Floor, Near Gate No 9 ?? APMC Yard, Yeshwanthpur ?? Bangalore , Karnataka ?? India - 00560022 ??
+7 ( 1 )                  Full Particulars of Remittance ?? Service Type: Fee for inspection of Public documents ??
+8 ( 2 )                  Type of Fee ??
+9 ( 3 )                  Service Description ??
+10 ( 4 )                 Amount(Rs.) ??
+11 ( 5 )                 Inspection of Public documents of KEYSTONE  ??
+12 ( 6 )                 Normal ??
+13 ( 7 )                 100.00  ??
+14 ( 8 )                 REALTORS PRIVATE LIMITED  ?? ( U45200MH1995PTC094208  ) ??
+15 ( 9 )                 Total ??
+16 ( 10 )                100.00  ??
+17 ( 11 )                Mode of Payment: ?? Received Payment Rupees:  One Hundred Only ??
+18 ( 12 )                Credit Card/Prepaid Card - ICICI Bank ??
+19 ( 13 )                Note: View public documents service is available for 3 hrs per company, from the time the  ?? first document is viewed, and is valid for 1 week ??
+20 ( 14 )                Page 1 of 1 ??
+
+-------------------------------------
+0                MINISTRY OF CORPORATE AFFAIRS ??
+1                RECEIPT ?? G.A.R.7 ??
+2                Service Request Date : 03/08/2017 ??
+3                SRN : U16573131 ?? Payment made into : ??
+4                ICICI BANK ??
+5                Received From : ?? Name : ?? Address : ??
+6 ( 0 )                  Zauba Technologies and Data Services Privat ?? No 1/10, II Floor, Near Gate No 9 ?? APMC Yard, Yeshwanthpur ?? Bangalore , Karnataka ?? India - 00560022 ??
+7 ( 1 )                  Full Particulars of Remittance ?? Service Type: Fee for inspection of Public documents ??
+8 ( 2 )                  Type of Fee ??
+9 ( 3 )                  Service Description ??
+10 ( 4 )                 Amount(Rs.) ??
+11 ( 5 )                 Inspection of Public documents of WESNIA INFO  ??
+12 ( 6 )                 Normal ??
+13 ( 7 )                 100.00  ??
+14 ( 8 )                 SOLUTIONS PRIVATE LIMITED  ?? ( U72200KA2006PTC039676  ) ??
+15 ( 9 )                 Total ??
+16 ( 10 )                100.00  ??
+17 ( 11 )                Mode of Payment: ?? Received Payment Rupees:  One Hundred Only ??
+18 ( 12 )                Credit Card/Prepaid Card - ICICI Bank ??
+19 ( 13 )                Note: View public documents service is available for 3 hrs per company, from the time the  ?? first document is viewed, and is valid for 1 week ??
+20 ( 14 )                Page 1 of 1 ??
+
+
+0                MINISTRY OF CORPORATE AFFAIRS ??
+1                RECEIPT ?? G.A.R.7 ??
+2                Service Request Date : 28/12/2017 ??
+3                SRN : U22212252 ?? Payment made into : ??
+4                HDFC BANK ??
+5                Received From : ?? Name : ?? Address : ??
+6                PRERAK MODY ?? 51, Gaurav Apts, Sayani Road, Prabhadevi ??
+7 ( 0 )                  Mumbai , Maharashtra ?? IN - 00400025 ??
+8 ( 1 )                  Full Particulars of Remittance ?? Service Type: Fee for inspection of Public documents ??
+9 ( 2 )                  Type of Fee ??
+10 ( 3 )                 Service Description ??
+11 ( 4 )                 Amount(Rs.) ??
+12 ( 5 )                 Inspection of Public documents of VICARA  ??
+13 ( 6 )                 Normal ??
+14 ( 7 )                 100.00  ??
+15 ( 8 )                 INFOTECH PRIVATE LIMITED  ?? ( U72200DL2010PTC201590  ) ??
+16 ( 9 )                 Total ??
+17 ( 10 )                100.00  ??
+18 ( 11 )                Mode of Payment: ?? Received Payment Rupees:  One Hundred Only ??
+19 ( 12 )                Internet Banking - HDFC Bank ??
+20 ( 13 )                Note: View public documents service is available for 3 hrs per company, from the time the  ?? first document is viewed, and is valid for 1 week ??
+21 ( 14 )                Page 1 of 1 ??
