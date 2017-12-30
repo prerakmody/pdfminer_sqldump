@@ -17,12 +17,13 @@ MySQL
 
  - SQL Commands
   - "show databases;"
+  - "create database zauba;"
   - "use zauba;"
-  - "create table sample (name varchar(256), age integer);"
-  - "describe sample;"
   - "show tables;"
-  - "insert into sample VALUES ('Prerak Mody', 25);"
-  - "select * from employee;"
+ - Ubuntu MySQL Command
+  - /usr/bin/mysql -u root -p  
+  - mysqldump -u root -p zauba > data/zauba.sql
+  - mysql -u root -p zauba < data/zauba.sql
 
 Python Connectors
  - Repo : https://github.com/PyMySQL/mysqlclient-python
